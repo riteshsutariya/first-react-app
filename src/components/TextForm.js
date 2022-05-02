@@ -42,7 +42,6 @@ export default function TextForm(prop)
 
     return(
         <>
-        <ClassComp1/>
         <div className="container">
             <h1>{prop.heading}</h1>
             <div className="mb-3">
