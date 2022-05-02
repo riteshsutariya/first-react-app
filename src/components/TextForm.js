@@ -31,7 +31,7 @@ export default function TextForm(prop)
         content.forEach((email)=>{
             if(regex.test(email))
             {
-                 emails=emails+"\n"+email;
+                 emails=emails+'\n'+email;
             }
         })
         SetEmail(emails);
